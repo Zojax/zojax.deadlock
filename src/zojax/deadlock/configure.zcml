@@ -1,0 +1,14 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   i18n_domain="zojax">
+
+  <browser:page
+     name="zojax-deadlock"
+     for="zope.app.folder.interfaces.IRootFolder"
+     title="Zojax Deadlock"
+     menu="zmi_actions"
+     class=".view.DeadlockDumper"
+     permission="zope.Public" />
+
+</configure>
